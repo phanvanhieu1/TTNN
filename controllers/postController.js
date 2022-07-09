@@ -2,9 +2,9 @@ const {google} = require('googleapis')
 
 
 
-// const getIndex = (req, res) => {
-//     res.render('index');
-// }
+const getIndex = (req, res) => {
+    res.render('index');
+}
 
 const postIndex = async (req, res) => {
     const auth = new google.auth.GoogleAuth({
@@ -51,6 +51,6 @@ const postIndex = async (req, res) => {
   }
 
 module.exports = {
-    // getIndex,
+    getIndex,
     postIndex
 }

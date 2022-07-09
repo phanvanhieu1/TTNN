@@ -26,6 +26,8 @@
     "express-session": "^1.17.3",
     "flash": "^1.1.0",
     "googleapis": "^105.0.0",
+    "localStorage": "^1.0.4",
+    "morgan": "^1.10.0",
     "passport-local": "^1.0.0",
     "xlsx": "^0.18.5"
   }
