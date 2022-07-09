@@ -16,8 +16,5 @@ module.exports.register = (req, res) => {
     })
 }
 module.exports.register_success = (req, res) => {
-    res.json({
-        message: 'Register success',
-        result:true
-    })
+    res.render('index.ejs')
 }
